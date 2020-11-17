@@ -1,11 +1,11 @@
 import React from 'react';
 
-function TextBox() {
+function TextBox(props) {
 
     return (
 
     <div class='text-div'>
-<textarea class="form-control" id="path-text" ></textarea>
+<p>This is our path: {props.path}, and our method {props.method}</p>
     </div>
 
 )
